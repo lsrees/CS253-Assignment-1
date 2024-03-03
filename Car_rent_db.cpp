@@ -594,7 +594,7 @@ bool Database::verifyManager(int managerId, const string& password) const {
 
 int main() {
 
-    string atlasConnectionString = "mongodb+srv://swecha:amruta@cluster0.4o1cvll.mongodb.net/<dbname>?retryWrites=true&w=majority";
+    string atlasConnectionString = "mongodb+srv://lssr2277:<password>@cluster0.jzhwn7k.mongodb.net/";
     Database database(atlasConnectionString);
 
      Car car1(1,"Hyundai", "Excellent", "Blue");
